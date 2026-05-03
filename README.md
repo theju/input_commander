@@ -15,11 +15,13 @@ Supported actions:
 
 - `{"action": "move", "x": 960, "y": 540}`
 - `{"action": "click"}`
+- `{"action": "click", "button": "right"}`
 - `{"action": "down"}`
 - `{"action": "up"}`
 - `{"action": "drop"}`
 - `{"action": "scroll", "x": 0, "y": -1}`
 - `{"action": "drag", "x": 200, "y": 200, "to_x": 800, "to_y": 600}`
+- `{"action": "drag", "button": "right", "x": 200, "y": 200, "to_x": 800, "to_y": 600}`
 
 Mouse `click`, `down`, `up`, `drop`, and `drag` default to the left button. Use `"button": "right"` for right-button actions.
 
