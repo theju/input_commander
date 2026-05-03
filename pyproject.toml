@@ -1,0 +1,10 @@
+[project]
+name = "input-commander"
+version = "0.1.0"
+description = "Control evdev enabled input devices like mouse and keyboard through HTTP"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bottle>=0.13.4",
+    "evdev>=1.9.2",
+]
