@@ -1,4 +1,4 @@
 #!/bin/bash
 
-chown root:input /dev/uinput
+chown root:`id -gn $SUDO_USER` /dev/uinput
 chmod 660 /dev/uinput
